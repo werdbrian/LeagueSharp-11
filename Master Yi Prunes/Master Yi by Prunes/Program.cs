@@ -278,7 +278,7 @@ namespace MasterYiByPrunes
                 
                 Q.CastOnUnit(target);
             }
-            if ((target.IsDashing() || target.LastCastedSpellName() == "SummonerFlash") && Config.Item("smartQ").GetValue<bool>())
+            if (target.IsDashing() && Config.Item("smartQ").GetValue<bool>())
             {
                 Q.CastOnUnit(target);
             }
