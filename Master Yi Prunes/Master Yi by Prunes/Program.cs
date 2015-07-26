@@ -354,8 +354,10 @@ namespace MasterYiByPrunes
         public static void OnProcessSpellCast(Obj_AI_Base obj, GameObjectProcessSpellCastEventArgs arg)
         {
        //     Console.WriteLine(arg.SData.Name);
-         if (arg.Target.IsMe && obj is Obj_AI_Hero)
+            if (arg.Target.IsMe && obj is Obj_AI_Hero)
             {
+                Console.WriteLine(obj.BaseSkinName);
+                Console.WriteLine(arg.SData.Name);
                 //Qtarget(arg.SData.Name, obj.BaseSkinName);
                 Console.WriteLine(arg.SData.Name);
             }
