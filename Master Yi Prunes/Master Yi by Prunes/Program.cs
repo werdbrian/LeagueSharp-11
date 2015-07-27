@@ -24,8 +24,7 @@ namespace MasterYiByPrunes
         public static readonly int[] RedMachete = { 3715, 3718, 3717, 3716, 3714 };
         public static readonly int[] BlueMachete = { 3706, 3710, 3709, 3708, 3707 };
         public static readonly string[] SmiteNames = {"s5_summonersmiteplayerganker", "s5_summonersmiteduel"};
-        public static readonly string[] DodgeSpells = { "infiniteduresschannel", "InfiniteDuress", "Dazzle", "Terrify", "PantheonQ", "dariusexecute", "runeprison", "goldcardpreattack", "zedult", "ViR", "VayneCondemn", "KatarinaQ", "SyndraR", "blindingdart", "ireliaequilibriumstrike", "maokaiunstablegrowth", "Disintegrate", 
-"VeigarPrimordialBurst", "FioraDance", "NasusQAttack"};
+        public static readonly string[] DodgeSpells = { "infiniteduresschannel", "InfiniteDuress", "Dazzle", "Terrify", "PantheonQ", "dariusexecute", "runeprison", "goldcardpreattack", "zedult", "ViR", "VayneCondemn", "KatarinaQ", "SyndraR", "blindingdart", "ireliaequilibriumstrike", "maokaiunstablegrowth", "Disintegrate", "brandwildfire","braumqmissile","cassiopeiatwinfang", "feast", "VeigarPrimordialBurst", "FioraDance", "NasusQAttack","fiddlesticksdarkwind","dianateleport","fioraq","parley","garenq", "gnarult","garenr","gragase","jaycetotheskies","jaycethunderingblow","netherblade","seismicshard",};
         public static Menu Config;
         public static SpellSlot smiteSlot = SpellSlot.Unknown;
         public static Spell smite;
